@@ -1,33 +1,59 @@
-## Markdown & Command line Cheat Sheet
+## Command line Cheat Sheet
+Where is it *located* ? It's located at the bottom of the screen when editing a repository
 
-### Markdown Sheet
+⌗ Key
 
-# Heading 
-⮕  Creates a heading and a line
-  >   | ## Creates a subheading (Up to 6 hashtags)
-
-`>` - Creates a highlight of the section
-
-**Bold**|`**TXT**`| Bold's letters and words, Good for highlighting words
-
-*Italic*|`*TXT*`| Italicizes letter & words, Good for names and credit
-
-`Line o' Code` | `(x2 on both sides) TXT | Creates a round box highlight for code, Disables most of the rest of stuff here when inside
-
-```
-This
-  is
-      a
-BOX OF CODE!, it lets you put muiltiple lines of code in a single box, very good for code
-```
-  - This is a **list**
-  - Good for *listing* out stuff
-  -  ` - TXT`
-
-  1. This is also a **list but numbered**
-  2. better for listing more stuff
-  3.  ` 1. TXT`
+**Directory** = *Folder*
+#### Note - DO NOT USE UPPERCASE IN ANYWAY WHEN IN COMMAND LINE. IT WILL NOT WORK!!
 
 ---
 
-[Link]
+# Command line
+
+**`MKDIR  ___`** - Create directory(Folder)
+
+**`RMDIR  ___`** - Remove directory(Folder)
+
+---
+
+*`Touch   ___`* - Create a file
+
+*`Rm  __`* - Remove a file
+
+**`Cp <Src> <Dest>`** Copy's a file & sends it to a destination
+
+**`Mv <Src> <Dest>`** Moves a file to a folder
+
+---
+
+ `CD` __ - Go to directory  
+ 
+ >[DIRECTORIES CONNECTED TO THE DIRECTORY YOU ARE CURRENTLY AT. YOU CANNOT GO TO A FILE 2 DIRECTORIES AWAY)
+
+<img src="https://www.computerhope.com/jargon/t/tree-300.png" alt="What Is a Directory?"/>)
+
+> ##### YOU CANNOT GO TO BIG IF YOU WERE IN C:
+
+`CD ..` - Move back one *directory*
+
+---
+
+`PWD` - Show what directory you are currently in
+
+`LS` - *List* directory files 
+
+  >  `LS -la` Variant of `LS` & shows a more detailed file list
+
+**`Clear`** - Clears the terminal screen.
+
+## Terminal line demonstration
+
+```(Username).(Directory you are at): touch Hello_World!.txt```
+
+This will *Create* a new **file** for you to edit.
+
+### Here is with Folders
+
+```(username).(Directory you are at): mkdir Garden```
+
+---
